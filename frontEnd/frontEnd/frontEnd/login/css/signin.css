@@ -1,0 +1,48 @@
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px; /* Add space for the toggle icon */
+}
+
+.password-container i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #000; /* Adjust color if needed */
+}
+#togglePassword {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 1.2rem;
+  color: rgb(121, 121, 121); /* Set the desired color */
+}
+#toggleConfirmPassword {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 1.2rem;
+  color: rgb(121, 121, 121); /* Set the desired color */
+}
+#passwordStrength {
+  font-size: 0.9rem;
+}
